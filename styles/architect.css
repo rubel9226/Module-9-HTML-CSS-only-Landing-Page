@@ -19,14 +19,20 @@ body{
 .btn{
     border-radius: 8px;
     border: none;
-    background-color: #FF900E;
+    /* background-color: #FF900E; */
+    background: linear-gradient(90deg, #ff4d4d, #ff9900);
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
     color: white;
     margin-top: 32px;
     cursor: pointer;
+    transition: all 0.3s ease;
 
+}
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(255, 140, 0, 0.4);
 }
 
 header{
@@ -166,7 +172,8 @@ header .hero img{
     font-size: 65px;
     color: white;
     border-radius: 8px;
-    background-color: #FF900E;
+    /* background-color: #FF900E; */
+    background: linear-gradient(90deg, #ff4d4d, #ff9900);
     line-height: 70px;
 }
 .section2 .section-img p{
@@ -215,12 +222,72 @@ header .hero img{
 }
 .copy-right{
     padding: 35px;
-    background-color: #FFF4E7;
+    /* background-color: #FFF4E7; */
+      /* background: linear-gradient(90deg, #ffedd5, #ffd8a8); */
+    background-color: #1f1f1f;
     border-radius: 8px;
     text-align: center;
     margin-top: 130px;
 }
 .copy-right p{
-    font-size: 20px;
-    color: #424242;
+
+  font-size: 20px;
+  color: #ff8c00;
+  font-weight: 600;
+}
+
+.fuck{
+    background: linear-gradient(90deg, #ff4d4d, #ff9900);
+    /* -webkit-text-fill-color: transparent; */
+    color: #FFF4E7;
+    padding: 0 25px;
+    border-radius: 8px;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.apurba {
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff7a00, #ffb703);
+  -webkit-text-fill-color: #FFF4E7;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+.tutu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.tutu::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 42px;
+  width: 100%;
+  height: 4px;
+  background: #ff8c00;
+  border-radius: 2px;
+}
+.tutu::before {
+  content: "";
+  position: absolute;
+    left: 0px;
+  top: 42px;
+  width: 100%;
+  height: 4px;
+  background: #ff8c00;
+  border-radius: 2px;
+}
+.apurba {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.apurba {
+  text-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+.bt{
+    transition: all 0.3s ease;
+}
+.bt:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(255, 140, 0, 0.4);
 }
